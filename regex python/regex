@@ -1,0 +1,34 @@
+import re
+'''
+txt = "Os melhores engenheiros são do Brasil"
+
+x = re.search("^Os.*Brasil$", txt)
+
+if x:
+    print("Padrao detectado")
+else:
+    print("Padrao nao detectado")
+
+txt = "oi seu pai tem boi?, foi o que eu pensei"
+
+x = re.findall("oi", txt)
+
+print(len(x))
+
+txt = "O rato roeu a roupa do rei de roma, que rato danado"
+
+x = re.search("rato", txt)
+
+if x:
+    print ("Padrao encontrado", x.span())
+else:
+    print("Padrao nao detectado")
+
+lista = []
+
+for match in re.finditer("r[a-z]+o",txt):
+    print(match.span())
+    lista.append(match.span())
+    
+print("Numero de deteccoes ", len(lista))
+'''
